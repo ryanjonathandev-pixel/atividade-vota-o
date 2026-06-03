@@ -6,12 +6,16 @@
     <title></title>
 </head>
 <body>
-    <form action="">
-        <label for="candidate1">Você é apto á votar?</label>
-        <input type="number" id="candidate1" name="age">
-        <button onclick="analisar()">AnaliZ</button>
-
-        <script src="AnaliZ.js"></script>
+    <h1>Você é apto á votar?</h1>
+  <form action="">
+      <select name="cidade" id="cidade">
+        <option value="1">menor de 16</option>
+        <option value="2">entre 16 e 18</option>
+        <option value="3">maior de 18</option>
+        <option value="4">acima de 70</option>
+  </select>
+  <button onclick="analisar()">CORE</button>
     </form>
+ <script src="AnaliZ.js"></script>
 </body>
 </html>
