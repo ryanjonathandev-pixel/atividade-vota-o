@@ -1,27 +1,34 @@
 function analisar() {
-let Option = document.getElementById("cidade").value;
+    let option = document.getElementById("cidade").value;
 
-
-    switch (Option) {
+    switch (option) {
 
         case "1":
-            alert("Novo dms!");
+            alert("Você ainda não pode votar!");
             break;
+
         case "2":
-            let reposta = confirm("Você é apto á votar, mas não é obrigatório! deseja votar?");
-              if (resposta) {
-              window.open("escolha_seu_candidato.html");
-              else {
-              return 0;}
-            window.open("escolha_seu_candidato.html");
+            let resposta = confirm(
+                "Você é apto a votar, mas não é obrigatório. Deseja votar?"
+            );
+
+            if (resposta) {
+                window.open("escolha_seu_candidato.html");
+            }
+
             break;
+
         case "3":
-            alert("Você é apto á votar, e é obrigatório!");
+            alert("Você é apto a votar, e o voto é obrigatório!");
             window.open("escolha_seu_candidato.html");
             break;
+
         case "4":
-            alert("Parabens! Você esta livre pra não se preocupar com o voto!");
+            alert("Você pode votar, mas não é obrigatório.");
             window.open("escolha_seu_candidato.html");
             break;
+
+        default:
+            alert("Selecione uma opção válida.");
     }
 }
