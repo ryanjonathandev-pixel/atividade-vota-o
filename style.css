@@ -1,6 +1,8 @@
+/* style.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background-color: #f4f6f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +12,11 @@ body {
 
 form {
     background: white;
-    padding: 25px;
-    border-radius: 12px;
+    padding: 30px;
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
+    width: 320px;
 }
 
 h1 {
@@ -29,25 +32,30 @@ label {
 
 select,
 input[type="number"] {
-    width: 220px;
+    width: 100%;
     padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 button {
     background-color: #0066cc;
     color: white;
     border: none;
-    padding: 10px 25px;
-    border-radius: 8px;
+    padding: 12px 20px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.3s;
+    width: 100%;
 }
 
 button:hover {
-    background-color: #004c99;
+    background-color: #004d99;
+}
+
+small {
+    color: #777;
 }
