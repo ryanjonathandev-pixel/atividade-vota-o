@@ -6,5 +6,11 @@ function nananinanao() {
         return; 
     }
 
-    alert("Obrigado pelo voto!"), window.open("https://www.youtube.com/@xN1ckname");;
+    let resposta = confirm(
+            "Obrigado pelo voto. Deeja saber mais sobre as nossas promessas de campanha?"
+            );
+
+            if (resposta) {
+                window.open("https://www.youtube.com/@xN1cknamel");
+            }
 }
