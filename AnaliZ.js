@@ -1,3 +1,7 @@
+let botao = document.getElementById("AnalisarButton");
+
+botao.addEventListener("click", analisar);
+
 function analisar() {
     let option = document.getElementById("cidade").value;
 
