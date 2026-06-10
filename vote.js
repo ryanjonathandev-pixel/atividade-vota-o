@@ -6,5 +6,5 @@ function nananinanao() {
         return; 
     }
 
-    alert("Obrigado pelo voto!");
+    alert("Obrigado pelo voto!"), window.open("https://www.youtube.com/@xN1ckname");;
 }
