@@ -11,6 +11,6 @@ function nananinanao() {
             );
 
             if (resposta) {
-                window.open("https://www.youtube.com/@xN1cknamel");
+                window.open("https://www.youtube.com/@xN1ckname");
             }
 }
